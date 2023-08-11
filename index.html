@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <main class="container">
+        <nav class="navbar">
+            <div id="name" style="font-weight: bold; font-size: large; margin-left: 10px;">My Portfolio</div>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#education-section">Education</a></li>
+                <li><a href="#project-section">Projects</a></li>
+                <li><a href="#about-section">Skills</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+
+            </ul>
+        </nav>
+        <section id="main">
+            <div id="overview">
+                <span>Hello</span>
+                <h1 id="my-name">I'm <span style="font-size: 3.5rem; color: black;"></span>Pavan Madale</h1>
+                <h2 style="color: black;">Web Designer/Developer</h2>
+
+                <button class="contact-btn">Contact Me</button>
+            </div>
+            <div>
+                <img id="img" src="/myimg.jpg" alt="myimg" width="350px">
+            </div>
+
+        </section>
+        <div id="about-section">
+            <div id="about-me">
+                <h1>ABOUT ME</h1>
+
+                <p>Hello ! I'm Pavan Madale, and I'm on a journey as a student of Engineering college in Computer Science.
+                    currently focused on web development.</p>
+            </div>
+            <div id="skill">
+                <h1>SKILLS</h1>
+                <div>
+                    <div class="langs">
+                        <h3>HTML</h3>
+                        <h3>90%</h3>
+                    </div>
+                    <progress value="95" max="100"></progress>
+                </div>
+                <br>
+                <div>
+                    <div class="langs">
+                        <h3>CSS</h3>
+                        <h3>80%</h3>
+                    </div>
+                    <progress value="80" max="100"></progress>
+                </div>
+                <br>
+                <div>
+                    <div class="langs">
+                        <h3>JAVA SCRIPT</h3>
+                        <h3>70%</h3>
+                    </div>
+                    <progress value="75" max="100"></progress>
+                </div>
+                <br>
+                <div>
+                    <div class="langs">
+                        <h3>REACT JS</h3>
+                        <h3>50%</h3>
+                    </div>
+                    <progress value="50" max="100"></progress>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+
+        <div id="education-section">
+            <div>
+                <img src="educationlogo.jpeg" alt="education" width="50px" style="background-color: white;">
+                <h1>EDUCATION</h1>
+            </div>
+
+            <ul class="edu-list">
+                <li>
+                    <p class="degree-name">Bachelor Of Engineering</p>
+                    <p>PDA College Of Engineering 2024 passout</p>
+
+                </li>
+                <li>
+                    <p class="degree-name">Pre University Education</p>
+                    <p>Diamond PU college 2020 passout</p>
+
+                </li>
+                <li>
+                    <p class="degree-name">High School</p>
+                    <p>Shantiniketan High School 2018 passout</p>
+                </li>
+            </ul>
+        </div>
+        <!-- <hr> -->
+
+        <div id="project-section">
+            <h1>MY RECENT PROJECTS</h1>
+            <div id="projects">
+                <div class="first">
+                    <div class="project-img-name">
+                        <img class="project-image" src="/project1.png" alt="p1" width="200px">
+                        <h3 class="project-name">Face Recognition Based Attendance System</h3>
+                    </div>
+                    <p class="project-details">
+                        Face Recognition Based Attendance System take attendace automatically and reduces manual Method,
+                        no need to take attendance manually.It has th add user,take attendace and delete options.
+                        <a class="project-link" href="https://github.com/PavanMadale/Face_Recognition_based_Attendance_System"
+                            target="_blank">Github link</a>
+                    <h4 class="lang-heading">Languages Used</h4>
+                    <ul class="lang-used">
+                        <li>Python(using flask)</li>
+                        <li>HTML</li>
+                    </ul>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- <hr> -->
+
+        <div id="contact-section">
+            <h1 style="color: black;">CONTACT</h1>
+            <div id="flex-container">
+                <form id="form">
+                    <div>
+                        <label for="myname">Name</label>
+                        <br>
+                        <input class="input" type="text" id="myname">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <br>
+                        <input class="input" type="text" name="" id="email">
+                    </div>
+                    <div>
+                        <label for="des">Description</label>
+                        <br>
+                        <textarea class="" name="" id="des" cols="50" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button type="button" id="btn">Contact Us</button>
+                    </div>
+                </form>
+                <div id="contact-details">
+                    <div>
+                        <h2 style="color: black;">Contact</h2>
+                        <span>pavanmadale05@gmail.com</span>
+                    </div>
+                    <div>
+                        <h2 style="color: black;">Based in</h2>
+                        <span>Basavakalyan,Karnataka,India</span>
+                    </div>
+                    <div id="social-img">
+                        <a href="https://wa.me/9380900690?text= Hello ! Pavan Madale I'd like to chat "
+                            target="_blank">
+                            <img src="/whatsapplogo.png" alt="" width="30px">
+                        </a>
+                        <a href="https://github.com/PavanMadale" target="_blank">
+                            <img src="/github.png" alt="" width="30px">
+                        </a>
+                        <a href="https://www.instagram.com/pavan.m.madale/" target="_blank">
+                            <img src="/instagram.png" alt="" width="30px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
